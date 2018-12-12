@@ -1,0 +1,52 @@
+/*
+ * Search
+ */
+#wb-srch,
+.srchbox {
+	padding-top: 1em;
+
+	input,
+	button {
+		border-radius: 0;
+	}
+
+	button {
+		background-color: #26374a;
+		border: 0;
+		border-bottom: #26374a solid 1px;
+		font-size: 17px;
+
+		&:hover,
+		&:focus,
+		&:active {
+			background: #444;
+		}
+	}
+
+	.glyphicon {
+		top: auto;
+		vertical-align: middle;
+	}
+
+	input {
+		border-color: #e0e0e0;
+		border-right: 0;
+		border-style: solid;
+		box-shadow: none;
+		color: #555;
+		margin-right: -4px;
+		min-width: 246px;
+		position: relative;
+	}
+}
+
+[dir=rtl] {
+	#wb-srch {
+		text-align: left;
+
+		input {
+			margin-left: -4px;
+			margin-right: auto;
+		}
+	}
+}
